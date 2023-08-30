@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #222;
+  color: #fff;
+}
+
+.container {
+  text-align: center;
+  padding: 50px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+#countdown {
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
+
+.fix-checklist {
+  margin-top: 50px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+/* ... Your existing styles ... */
+
+.side-menu {
+  position: fixed;
+  top: 0;
+  left: -250px;
+  width: 250px;
+  height: 100%;
+  background-color: #333;
+  padding-top: 60px;
+  transition: left 0.3s;
+}
+
+.side-menu.active {
+  left: 0;
+}
+
+.side-menu ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.side-menu li {
+  padding: 10px;
+}
+
+.side-menu a {
+  color: #fff;
+  text-decoration: none;
+}
